@@ -1,3 +1,21 @@
 body{
-    background-color: rgb(2, 42, 58);
+    background-color: rgb(189, 206, 212);
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    gap: 80px;
+}
+a{
+    color: white;
+    font-size: 30px;
+    text-decoration: none;
+}
+a:hover{
+    color: gray;
+    cursor: pointer;
 }
