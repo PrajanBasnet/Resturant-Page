@@ -1,0 +1,41 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.backgroundImg{
+    display: flex;
+}
+
+img{
+    width: 100%;
+    height: 700px;
+}
+#centerDiv{
+    height: 400px;
+    background-color: rgb(177, 159, 159);
+    margin-top: 29%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h1{
+    color: #ccab5b;
+    position: relative;
+    top: 130px;
+    left: 30%;
+    font-size: 80px;
+
+}
+h1 b{
+    color: white;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 350px;
+    
+    box-shadow: 5px 5px 10px #00000012;
+}

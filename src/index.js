@@ -1,6 +1,8 @@
-import "./styles.css"
+import "./css/styles.css"
+import { Menu } from "./menu.js";
 
 const newDiv = document.createElement("div");
+const nav = document.querySelector("nav");
 
 function linkTags(text,link){
     const aTag = document.createElement("a");
@@ -8,11 +10,19 @@ function linkTags(text,link){
 
     aTag.appendChild(aContent);
     aTag.setAttribute('href',`${link}`);
-    
+    aTag.addEventListener("click",()=>{
+
+        console.log("Working")
+        if(text === "Menu"){
+
+            Menu()
+        }else if(text === "About"){
+            console.log("About clicked")
+        }
+    })
     newDiv.setAttribute("class","container")
     newDiv.appendChild(aTag);
     
-    const nav = document.querySelector("nav");
     nav.appendChild(newDiv)
 }
 
