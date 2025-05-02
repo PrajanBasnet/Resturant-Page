@@ -1,5 +1,5 @@
 import "./css/styles.css"
-import { Menu } from "./menu.js";
+import { Menu, mainContent } from "./menu.js";
 
 const newDiv = document.createElement("div");
 const nav = document.querySelector("nav");
@@ -18,7 +18,9 @@ function linkTags(text,link){
             Menu()
         }else if(text === "About"){
             console.log("About clicked")
-        }
+        }else if(text === "Home"){
+            mainContent.innerHTML = "";
+        } 
     })
     newDiv.setAttribute("class","container")
     newDiv.appendChild(aTag);
