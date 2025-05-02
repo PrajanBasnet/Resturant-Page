@@ -1,5 +1,7 @@
 import FoodBg from "./img/back.jpg"
 import "./css/menu.css"
+
+
 let mainContent = document.querySelector("#content");
 
 function centerText() {
@@ -26,10 +28,11 @@ function centerContent() {
     p.textContent = "Thakali food, a traditional Nepali meal, typically includes rice, dal (lentil soup), tarkari (vegetable curry), and meat (masu)"
     h2.textContent = "Nepali Thakali food"
     
+    order.innerHTML = "Order"
+    price.innerHTML = "Price $99"
     const img = new Image()
     img.src = FoodBg;
     
-    order.innerHTML = "Order"
     order.setAttribute("id","order")
     price.setAttribute("id","price")
     img.setAttribute("id","foodImg")
@@ -40,6 +43,7 @@ function centerContent() {
     card.appendChild(h2)
     card.appendChild(p)
     card.appendChild(order)
+    card.appendChild(price)
     mainContent.appendChild(card);
     // mainContent.appendChild(newDiv);
 
@@ -51,6 +55,7 @@ function Menu() {
     centerContent()
     centerContent()
     centerContent()
+
 
     centerContent()
 

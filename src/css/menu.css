@@ -63,7 +63,14 @@ color: white;
     border: none;
     padding: 20px;
 }
-
+#price{
+    background-color: #ccab5b;
+    font-size: 20px;
+    margin: 3%;
+    color: white;
+    border: none;
+    padding: 20px;
+}
 #order:hover{
     background-color: #dfb451;
 }

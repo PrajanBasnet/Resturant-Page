@@ -1,0 +1,14 @@
+
+
+.about {
+    height: 300px;
+    width: 600px;
+}
+
+h3{
+    color: white;
+    width: 800px;
+    position: relative;
+    top: 110px;
+    font-size: 20px;
+}
