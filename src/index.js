@@ -22,8 +22,7 @@ function linkTags(text,link){
     })
     newDiv.setAttribute("class","container")
     newDiv.appendChild(aTag);
-    
-    nav.appendChild(newDiv)
+    nav.appendChild(newDiv);
 }
 
 linkTags("Home","#");
